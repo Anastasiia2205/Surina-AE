@@ -1,0 +1,12 @@
+pos_min, pos_max, value_min, value_max = 0, 0, l[0], l[0]
+
+for i in range(len(l)):
+ if l[i] < value_min:
+ pos_min = i
+ value_min = l[i]
+
+ if l[i] > value_max:
+ pos_max = i
+ value_max = l[i]
+
+l[pos_min], l[pos_max] = value_max, value_min
