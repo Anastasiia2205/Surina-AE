@@ -1,4 +1,4 @@
-with open('ZhiboedovKV_u224_vvod.txt', 'r+') as f:
+with open('SurinaAE_u224_vvod.txt', 'r+') as f:
     line = f.readlines()
     l = [element.replace ("\n", "").split() for element in line]
 n = len(l)
@@ -18,11 +18,11 @@ def pr(mas):
         mas[k][j]/=mas[k][k]
     return mas
 
-with open('ZhiboedovKV_u224_vivod.txt', 'w') as f2:
+with open('SurinaAE_u224_vivod.txt', 'w') as f2:
     f2.write(str(pr(a)))
     f2.write('\n')
 
-with open('ZhiboedovKV_u224_vvod.txt', 'r+') as f:
+with open('SurinaAE_u224_vvod.txt', 'r+') as f:
     line = f.readlines()
     l = [element.replace ("\n", "").split() for element in line]
 n = len(l)
@@ -41,7 +41,7 @@ def transponse(matr):
         res=res+[tmp]
     return res
 
-with open('ZhiboedovKV_u224_vivod.txt', 'a+') as f2:
+with open('SurinaAE_u224_vivod.txt', 'a+') as f2:
     f2.write('\n')
     f2.write(str(transponse(a)))
     f2.write('\n')
