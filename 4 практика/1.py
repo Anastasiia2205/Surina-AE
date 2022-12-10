@@ -1,4 +1,3 @@
-A = int(input())
-B = int(input())
+def S(A,B)
 for i in range(A, B+1):
- print(i)
+print(i)
