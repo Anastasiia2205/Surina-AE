@@ -1,4 +1,4 @@
-n = int(input())
+def S(n)
 sum = 0
 for i in range(n):
  sum += int(input())
