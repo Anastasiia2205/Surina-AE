@@ -1,4 +1,4 @@
-n = int(input())
+def S(n)
 partial_factorial = 1
 partial_sum = 0
 for i in range(1, n + 1):
