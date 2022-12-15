@@ -1,6 +1,6 @@
 def F() :
-n=int(input())
-if n==0:
-return [n]
-return sorted ([n] +F())
+    n=int(input())
+    if n == 0:
+        return [n]
+    return sorted ([n] +F())
 print(F() [-2]) 
